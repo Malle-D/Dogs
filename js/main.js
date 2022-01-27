@@ -1,4 +1,4 @@
-let elHeader = document.querySelector(".header");
+var elHeader = document.querySelector(".header");
 let elLupa = document.querySelector(".menu__input-controller");
 
 elLupa.addEventListener('click', function(){
@@ -14,12 +14,10 @@ elSpan.addEventListener('click', function(){
 })
 
 
-
-let elHeader2 = document.querySelector(".header");
 let elHeaderHamburg = document.querySelector(".menu__box");
 
 elHeaderHamburg.addEventListener('click', function(){
-    elHeader2.classList.toggle("header--active");
+    elHeader.classList.toggle("header--active");
 })
 function myFunction(x) {
     x.classList.toggle("change");

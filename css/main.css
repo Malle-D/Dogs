@@ -138,7 +138,7 @@ body{
    margin-left: 40px;
 }
 .menu__item:nth-child(2){
-   transition: 0.5s ease;
+   transition: 0.7s ease;
 }
 .menu__input{
    display: none;
@@ -241,7 +241,7 @@ body{
    display: flex;
    align-items: center;
    position: relative;
-   z-index: -1;
+   z-index: 1;
    padding: 30px 0px 100px 0px;
 }
 .hero__info{
@@ -678,7 +678,7 @@ body{
    position: relative;
    z-index: 2;
 }
-.comment::before{
+/* .comment::before{
    content: "";
    position: absolute;
    z-index: -2;
@@ -689,7 +689,7 @@ body{
    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
    top: calc(50% - 150px);
    left: calc(50% - 285px);
-}
+} */
 .comment__img{
    width: 30px;
    height: 30px;
@@ -758,6 +758,12 @@ body{
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
+}
+.img-case{
+   color: gray;
+}
+.img-case:hover{
+   color: black;
 }
 .arrow-img1{
    cursor: pointer;
